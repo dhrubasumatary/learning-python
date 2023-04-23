@@ -62,7 +62,19 @@
       </tbody>
     </table>
 
-<h3> here's a brief overview of what each Python keyword does:</h3>
+<br><h3>The above keywords ⬆️ </h3> <p> may get altered in different versions of Python. Some extra might get added or some might be removed. You can always get the list of keywords in your current version by typing the following in the prompt:</p>
+
+<pre>
+&gt;&gt;&gt; import keyword
+&gt;&gt;&gt; print(keyword.kwlist)
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+</pre>
+
+	  
+	  
+<br>
+<h3> We will cover these keywords later on when we learn about data types, variables, and control structures in Python. </h3>
+<br>h3> here's a brief overview of what each Python keyword does:</h3>
 <table>
 		<tr>
 			<th>Keyword</th>
@@ -209,9 +221,14 @@
 			<td>yield</td>
             <td>Used inside a function to return a generator object that can be iterated over.</td>
         </tr>
+
+
+
+
         
 
 
 
   </body>
 </html>
+
