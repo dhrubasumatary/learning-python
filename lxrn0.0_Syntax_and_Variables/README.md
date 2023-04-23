@@ -53,6 +53,8 @@ Here are some rules to follow when naming an identifier:
 - Multiple words in an identifier can be separated using an underscore, like `this_is_a_long_variable`.
 
 
+### Scary codes we will try to understand
+
 ```python
 if len(customer_question) > 0:
     bot_response = generate_bot_response(customer_question)
